@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap");
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@theme {
+  --font-jetbrains-mono: "JetBrains Mono", monospace;
+  --color-background: #141418;
+  --color-divider: #333333;
+  --color-accent: var(--color-violet-400);
+  --color-text: var(--color-zinc-400);
+  --color-surface: color-mix(in oklab, var(--color-zinc-900) 50%, transparent);
+  --radius-card: 8px;
+}
+
