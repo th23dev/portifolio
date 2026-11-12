@@ -4,6 +4,11 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--color-background);
+}
+
+body {
+  background-color: var(--color-background);
 }
 
 @media (prefers-reduced-motion: reduce) {

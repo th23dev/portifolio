@@ -19,7 +19,7 @@ function Footer() {
                     <nav aria-label="Redes sociais" className="mt-6 flex flex-wrap items-center gap-2">
                         <SocialLink img="https://cdn.simpleicons.org/github/8257E5" src="https://github.com/th23dev" alt="GitHub" />
                         <SocialLink img={linkedinIcon} src="https://www.linkedin.com/in/raffaelthaua/" alt="LinkedIn" />
-                        <SocialLink img="https://cdn.simpleicons.org/instagram/E4405F" src="https://www.instagram.com/th23_dev/" alt="Instagram" />
+                        <SocialLink img="https://cdn.simpleicons.org/instagram/E4405F" src="https://www.instagram.com/th23dev/" alt="Instagram" />
                         <SocialLink img="https://cdn.simpleicons.org/tiktok/25F4EE" src="https://www.tiktok.com/@th23_dev" alt="TikTok" />
                     </nav>
                     </div>

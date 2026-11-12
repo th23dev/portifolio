@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <section className="bg-background w-full h-auto min-h-screen flex justify-center px-2 md:px-0">
-        <div className="bg-divider w-full md:w-[65%] min-h-screen border-0 md:border border-divider flex flex-col gap-px">
+        <div className="bg-divider w-full md:w-[70%] min-h-screen border-0 md:border border-divider flex flex-col gap-px">
 
           <Header />
 

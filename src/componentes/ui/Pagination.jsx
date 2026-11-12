@@ -17,7 +17,7 @@ function PageButton({ arrow = false, children, ...props }) {
 
 function Pagination({ page, totalPages, onPageChange, controls }) {
     return (
-        <nav aria-label="Paginação dos projetos" className="mt-8 flex items-center justify-center gap-2 font-jetbrains-mono text-sm">
+        <nav aria-label="Paginação dos projetos" className="mt-3 mb-3 flex items-center justify-center gap-2 font-jetbrains-mono text-sm">
             <PageButton arrow aria-label="Página anterior" aria-controls={controls} disabled={page === 0} onClick={() => onPageChange(page - 1)}>‹</PageButton>
 
             {Array.from({ length: totalPages }, (_, index) => (
