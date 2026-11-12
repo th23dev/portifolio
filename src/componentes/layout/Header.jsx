@@ -10,7 +10,7 @@ function Header() {
         <header className="bg-background w-full h-20 rounded-card flex items-center px-6">
 
             <div className="flex items-center gap-3">
-                <img src="/favicon.svg?v=2" alt="" className="size-10 shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Logo th23dev" className="size-10 shrink-0" />
                 <h3 className='text-white text-3xl font-jetbrains-mono'>th23dev</h3>
             </div>
 
