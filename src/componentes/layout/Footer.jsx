@@ -5,7 +5,7 @@ import linkedinIcon from "../../assets/linkedin.svg"
 
 function Footer() {
     return (
-        <footer id="contatos" className="bg-background w-full min-h-[30dvh] flex flex-col rounded-card overflow-hidden">
+        <footer id="contatos" className="scroll-mt-32 bg-background w-full min-h-[30dvh] flex flex-col rounded-card overflow-hidden md:scroll-mt-20">
             <Subtitle>Links Para Contato</Subtitle>
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="flex min-w-0 flex-col">

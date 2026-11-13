@@ -3,7 +3,7 @@ import Subtitle from "../ui/Subtitle"
 
 function AboutSection() {
     return (
-        <section id="sobre" className="bg-background flex w-full min-h-[70dvh] h-auto flex-col rounded-card">
+        <section id="sobre" className="scroll-mt-32 bg-background flex w-full min-h-[70dvh] h-auto flex-col rounded-card md:scroll-mt-20">
             <Subtitle>Sobre Mim</Subtitle>
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="min-w-0 space-y-5 p-6 text-base leading-relaxed text-text sm:p-10">

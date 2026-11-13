@@ -7,11 +7,11 @@ const skills = [
     { title: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg' },
     { title: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg' },
     { title: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/java/java-original.svg' },
-    { title: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/css3/css3-original.svg' },
-    { title: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg' },
-    { title: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/html5/html5-original.svg' },
     { title: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg' },
     { title: 'GitHub', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/github/github-original.svg' },
+    { title: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/html5/html5-original.svg' },
+    { title: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/css3/css3-original.svg' },
+    { title: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg' },
 ]
 
 export default skills

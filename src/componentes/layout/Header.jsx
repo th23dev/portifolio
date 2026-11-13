@@ -7,7 +7,7 @@ import SocialLink from '../ui/SocialLink'
 
 function Header() {
     return (
-        <header className="bg-background flex min-h-20 w-full flex-wrap items-center gap-y-3 rounded-card px-4 py-4 md:flex-nowrap md:px-6">
+        <header className="bg-background flex min-h-20 w-full flex-wrap items-center gap-y-3 rounded-card px-4 py-4 md:flex-nowrap md:px-6 sticky top-0 z-10 border-divider border-b-[0.5px] border-t-[0.5px]">
 
             <div className="flex items-center gap-3">
                 <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Logo th23dev" className="size-10 shrink-0" />
