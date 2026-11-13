@@ -32,7 +32,7 @@ function AboutSection() {
             </div>
 
             <div className="border-t border-divider">
-                <Subtitle>Experiência profissional</Subtitle>
+                <Subtitle id='exp_profissional'>Experiência profissional</Subtitle>
                 <div className="grid grid-cols-1 border-t border-divider lg:grid-cols-2">
                     <article className="p-6 sm:p-10">
                         <p className="font-jetbrains-mono text-xs text-accent">2026 · Freelancer</p>
@@ -78,7 +78,7 @@ function AboutSection() {
                 </div>
             </div>
 
-            <Subtitle>Habilidades Técnicas</Subtitle>
+            <Subtitle id='skills'>Habilidades Técnicas</Subtitle>
             <Skills />
         </section>
     )

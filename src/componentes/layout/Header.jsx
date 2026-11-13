@@ -1,6 +1,7 @@
 import linkedinIcon from '../../assets/linkedin.svg'
 
 import SocialLink from '../ui/SocialLink'
+import SectionDropdown from '../ui/SectionDropdown'
 
 
 
@@ -15,10 +16,22 @@ function Header() {
             </div>
 
             <nav aria-label="Links do portifólio" className="order-3 flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-1 font-jetbrains-mono text-sm text-white md:order-0 md:ml-auto md:w-auto md:flex-nowrap md:justify-end md:gap-3 md:text-sm lg:text-base">
-                <a href="#inicio" className="transition-colors duration-200 hover:text-accent">Início</a>
-                <a href="#sobre" className="transition-colors duration-200 hover:text-accent">Sobre</a>
-                <a href="#projetos" className="transition-colors duration-200 hover:text-accent">Projetos</a>
-                <a href="#contatos" className="transition-colors duration-200 hover:text-accent">Contatos</a>
+                <div className="group relative">
+                    <a href="#inicio" className="transition-colors duration-200 hover:text-accent">Início</a>
+                </div>
+                <div className="group relative">
+                    <a href="#sobre" className="transition-colors duration-200 hover:text-accent">Sobre</a>
+                    <SectionDropdown>
+                        <a href="#exp_profissional" className="transition-colors duration-200 hover:text-accent">Experiência profissional</a>
+                        <a href="#skills" className="transition-colors duration-200 hover:text-accent">Habilidades Técnicas</a>
+                    </SectionDropdown>
+                </div>
+                <div className="group relative">
+                    <a href="#projetos" className="transition-colors duration-200 hover:text-accent">Projetos</a>
+                </div>
+                <div className="group relative">
+                    <a href="#contatos" className="transition-colors duration-200 hover:text-accent">Contatos</a>
+                </div>
             </nav>
 
             <nav aria-label="Redes sociais" className="ml-auto hidden items-center gap-2 xl:flex">

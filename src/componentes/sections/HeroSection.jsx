@@ -5,9 +5,9 @@ function HeroSection(){
     return(
         <section id="inicio" className="scroll-mt-32 bg-background flex flex-col md:scroll-mt-20 md:flex-row w-full min-h-[70dvh] rounded-card overflow-hidden">
             <div className="w-full md:w-1/2 min-w-0 h-full border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-divider p-6 sm:p-8 md:p-6 lg:p-10 flex flex-col gap-4">
-                <h2 className="text-[clamp(2.5rem,6vw,6rem)] font-inter font-bold text-white">Raffael <br /> Thauã</h2>
+                <h2 className="text-[clamp(2.5rem,6vw,6rem)] font-titan-one leading-none text-white">Raffael <br /> Thauã</h2>
                 <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed text-text">
-                    Programador dedicado a alcançar suas expectativas e entregar o melhor produto.
+                    Programador dedicado a alcançar suas <br /> expectativas e entregar o melhor produto.
                 </p>
 
                 <div className="flex w-full flex-wrap gap-3">
