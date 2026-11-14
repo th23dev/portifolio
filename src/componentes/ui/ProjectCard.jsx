@@ -18,9 +18,9 @@ function ProjectCard({ project, featured = false }) {
     const [name, category] = project.title.split(' | ')
 
     return (
-        <article className="relative overflow-hidden border border-divider bg-surface">
+        <article className="group relative overflow-visible border border-divider bg-surface">
             {featured && (
-                <div className="absolute right-0 top-0">
+                <div className="absolute right-0 top-0 transition-transform duration-200 group-hover:-translate-y-2">
                     <FeaturedBadge />
                 </div>
             )}
