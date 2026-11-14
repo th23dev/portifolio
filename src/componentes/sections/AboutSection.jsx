@@ -1,21 +1,41 @@
 import Skills from "./Skills"
 import Subtitle from "../ui/Subtitle"
+import EstudosDev from "../../assets/estudos_dev.webp"
 
 function AboutSection() {
     return (
         <section id="sobre" className="scroll-mt-32 bg-background flex w-full min-h-[70dvh] h-auto flex-col rounded-card md:scroll-mt-20">
             <Subtitle>Sobre Mim</Subtitle>
             <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="min-w-0 space-y-5 p-6 text-base leading-relaxed text-text sm:p-10">
-                    <p>
-                        Sou <strong className="font-medium text-white">Raffael Thauã</strong>, desenvolvedor web
-                        e estudante de Sistemas de Informação na UFPA. Desenvolvo interfaces e aplicações web,
-                        com experiência em projetos de turismo, sistemas de gestão e suporte de TI.
-                    </p>
-                    <p>
-                        Trabalho com JavaScript, PHP, React e Node.js. Gosto de aprender construindo projetos
-                        e explorando novas ferramentas. Fora do código, curto jogos e acompanho novidades de tecnologia.
-                    </p>
+                <div className="min-w-0 text-base leading-relaxed text-text">
+                    <div className="space-y-5 p-6 sm:p-10">
+                        <h3 className="font-jetbrains-mono text-lg text-white">Meu nome é Raffael Thauã</h3>
+                        <p>
+                            sou desenvolvedor web
+                            e estudante de Sistemas de Informação na UFPA. Desenvolvo interfaces e aplicações web,
+                            com experiência em projetos de turismo, sistemas de gestão e suporte de TI.
+                        </p>
+                        <p>
+                            Trabalho com JavaScript, PHP, React e Node.js. Gosto de aprender construindo projetos
+                            e explorando novas ferramentas. Fora do código, curto jogos e acompanho novidades de tecnologia.
+                        </p>
+                    </div>
+                    <div className="mt-5 relative isolate">
+                        <div aria-hidden="true" className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_120%,var(--color-accent),transparent_70%)] opacity-30" />
+                        <svg
+                            aria-hidden="true"
+                            className="pointer-events-none absolute inset-0 h-full w-full opacity-20 mix-blend-soft-light"
+                            preserveAspectRatio="none"
+                            style={{ maskImage: "radial-gradient(ellipse at 50% 120%, black, transparent 70%)" }}
+                        >
+                            <filter id="shadow-grain">
+                                <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch" />
+                                <feColorMatrix type="saturate" values="0" />
+                            </filter>
+                            <rect width="100%" height="100%" filter="url(#shadow-grain)" />
+                        </svg>
+                        <img className="relative mix-blend-lighten" src={EstudosDev} alt="Materias de desenvolvimento." />
+                    </div>
                 </div>
 
                 <div className="min-w-0 border-t border-divider bg-surface p-6 sm:p-10 lg:border-t-0 lg:border-l">
